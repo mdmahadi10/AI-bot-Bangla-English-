@@ -1,0 +1,39 @@
+def main():
+  names = ["How are you?", "How's going?" "How are you", "How's going", "What's going", "how're u?", "how r u?",
+             "haw ar u"]
+  names2 = ["What is you name?", "what is your name?", "what's you name?", "your name?" "hello what is your name", "what is your name"]
+  names3 = ["Hi", "hello", "hi", "Hello", "hello there", "hola"]
+  names4 = ["I'm Fine", "great", "fine", "ok", "i'm fine"]
+  names5 = ["hey man", "hello bro", "hi bro", "Hey", "hola bro", "bro"]
+  names6 = ["ki khbr", "ki khobor", "ki obstha", "kemon achen" "obostha kemon", "kemon achen"]
+  names7 = ["kemon cholche dinkal", "dinkal kemon jay", "kmn cholche dinkal", ]
+  names8 = ["eito cholche", "alhamdulillah", "bhaloi", ]
+  names9 = ["mair hobe mair" ]
+
+  name = input(" You: ")
+
+  if name in names:
+    print("I'm fine, and you?")
+  elif name in names2:
+    print("My name is Mahadi ")
+  elif name in names3:
+    print("Hello, How are you?")
+  elif name in names4:
+      print("Great! Nice to meet you")
+  elif name in names5:
+    print("Hey! man")
+  elif name in names6:
+    print("Alhamdulillah, Bhalo")
+
+  elif name in names7:
+    print("eito cholche thikthak, apnr?")
+  elif name in names8:
+    print("accha shune bhalo laglo, bro")
+  elif name in names9:
+    print("mair dile, amr mair ektaw niche porbena, bro")
+  else:
+    print("bhai abr bolben please? bujhini")
+
+
+  main()
+main()
